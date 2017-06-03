@@ -4,7 +4,8 @@
   "description": "Firebase and ReactJS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:js": "browserify ./src/app.js -t [ babelify --optional es7.classProperties ] --outfile public/all.js",
+    "build": "watch 'npm run build:js' ./src"
   },
   "author": "Junaid Farooq",
   "license": "ISC",
