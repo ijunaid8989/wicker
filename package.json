@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "ejs": "^2.5.6",
-    "express-session": "^1.15.3"
+    "express-session": "^1.15.3",
+    "firebase": "^2.4.2"
   }
 }
