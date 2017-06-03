@@ -10,5 +10,8 @@
   "license": "ISC",
   "devDependencies": {
     "express": "^4.15.3"
+  },
+  "dependencies": {
+    "ejs": "^2.5.6"
   }
 }
