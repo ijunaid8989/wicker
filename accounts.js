@@ -14,7 +14,7 @@ function hash (password) {
 // make the router and add parsers
 router
   .use(require('body-parser').json())
-  .use(require('cookie-parse')())
+  .use(require('cookie-parser')())
   .use(require('express-session')({
     resave: false,
     saveUninitialized: true,
